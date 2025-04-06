@@ -1,0 +1,189 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CS Student Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #0ef;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.2rem 0;
+    }
+
+    h3 {
+      font-weight: 400;
+      color: #0ef;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 10px;
+      font-size: 1.2rem;
+      color: #0ef;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      border-left: 5px solid #0ef;
+      padding-left: 10px;
+      margin-bottom: 1rem;
+      color: #0ef;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px #0ef2;
+    }
+
+    .edu .education {
+      background: #1f1f1f;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px #0ef1;
+    }
+
+    .resume a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .resume a:hover {
+      background: #08c;
+      color: #fff;
+    }
+
+    .contact p {
+      margin: 0.4rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Sivagami.jpeg" alt="Your Photo" class="profile-pic" />
+    <h1>SivagamaSundari G</h1>
+    <h3>B.Sc Computer Science Student</h3>
+    <nav>
+      <a href="https://www.linkedin.com/in/sivagamasundari-g-65494035a" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/SivagamaSundariG" target="_blank"><i class="fab fa-github"></i></a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate Computer Science student eager to apply theoretical knowledge in real- world applications. Looking for an opportunity to contribute to cutting-edge projects in Web Development Technologies while continuing to enrich and develop my skills in problem solving and Full-Stack Development
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML/CSS</div>
+        <div class="skill">Python</div>
+        <div class="skill">Git</div>
+        <div class="skill">DBMS</div>
+      </div>
+    </section>
+
+    <section class="edu">
+      <h2>Education</h2>
+      <div class="education">
+        <h3>B.Sc Computer Science </h3>
+        <p style="color: white;"> 2023-2026</p>
+        <p>ShubaShakthi college of Arts and Science for Women</p>
+      </div>
+      <!-- <div class="project">
+        <h3>Student Result Management System</h3>
+        <p>Built with Python and MySQL for managing student grades and records efficiently.</p>
+      </div>
+    </section> -->
+
+    <!-- <section class="resume">
+      <h2>Resume</h2>
+      <a href="your-resume.pdf" target="_blank">Download Resume</a>
+    </section> -->
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: sivusivagamasundari@gmail.com</p>
+      <p>Phone: +91-9384250043</p>
+    </section>
+  </div>
+  
+
+  <footer>
+    &copy; 2025 SivagamasundariG. All rights reserved.
+  </footer>
+
+</body>
+</html>
